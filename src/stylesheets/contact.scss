@@ -1,0 +1,11 @@
+@import "variables";
+
+.contact {
+    background: $baseColor;
+    color: $forColor;
+    max-width: 200px;
+
+    img {
+        width: 100%;
+    }
+}

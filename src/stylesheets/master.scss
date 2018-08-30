@@ -1,0 +1,22 @@
+$baseColor: #fafafa;
+$highlightColor: orange;
+$highlighFortColor: white;
+$baseFont: sans-serif;
+$bloodyRed: red;
+
+div {
+    * {
+        font-family: $baseFont;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .title {
+        background: $highlightColor;
+        color: $highlighFortColor;
+    }
+
+    .important-title {
+        background: $bloodyRed;
+        color: $baseColor;
+    }
+}
